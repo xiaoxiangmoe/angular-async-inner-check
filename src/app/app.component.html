@@ -1,2 +1,5 @@
-
 <app-child-view></app-child-view>
+
+<app-hello name="A"></app-hello>
+<app-hello [name]="name"></app-hello>
+<app-hello [name]="name$ | asyncInnerCheck"></app-hello>
